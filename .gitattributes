@@ -1,0 +1,10 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Ensure Unix shell scripts always keep LF line endings across all platforms
+*.sh text eol=lf
+*.command text eol=lf
+*.py text eol=lf
+
+# Ensure Windows batch files maintain CRLF
+*.bat text eol=crlf

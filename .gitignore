@@ -1,0 +1,36 @@
+# Logs and execution records
+Logs/
+*.log
+*.txt
+!README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
